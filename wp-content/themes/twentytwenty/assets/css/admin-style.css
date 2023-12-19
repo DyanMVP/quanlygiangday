@@ -1,0 +1,29 @@
+/****************** Advance Options *****************/
+.mo-meta-box-field{width:100%; overflow:hidden;margin-bottom:5px;}
+.form-table td.mo-meta-box-field{width: 85%}
+.mo-meta-box-field label{float:left;line-height:28px;width:27%;font-weight:bold}
+.mo-meta-box-field .field{float:left;width:68%}
+.mo-meta-box-field .field input:not(.colorpicker):not(.wp-picker-clear), .mo-meta-box-field .field select, .mo-meta-box-field .field textarea{min-width:230px;}
+.mo-meta-box-field .field textarea{height:100px;width: 364px;}
+.mo-meta-box-field .field input[type="button"]{font-size: 15px;vertical-align: top;margin-left: 4px;min-width: 50px !important;padding: 4px 10px;border: none;background-color: #00aef0;color: #fff;border-radius: 20px;height: 30px;}
+.mo-meta-box-field .field input[type="button"]:hover{background-color: #0089bd; cursor: pointer}
+.mo-meta-box-field .field input[type="button"]:disabled{background-color: #ebebeb; color: #666}
+.mo-meta-box-field .field input[type="button"]:disabled:hover{cursor: auto}
+.mo-meta-box-field .field input[type="button"].wp-picker-clear{padding: 0}
+.mo-meta-box-field .field input.upload_field{width:65%;}
+.mo-meta-box-field .field .preview-image{max-width: 50%; max-height: 200px; margin-top: 5px; margin-left: 1px; display: block;}
+.mo-meta-box-field.mo-heading-box{margin-bottom: 10px;}
+.mo-meta-box-field.mo-heading-box h2{margin-bottom: 0 !important; font-size: 22px !important; padding-left: 0 !important}
+
+#page_options.mo-hidden{display: none !important}
+
+/*********** Advance Options - Gallery ***************/
+#post_gallery .inside{padding: 0;margin: 0;}
+.mo-gallery-box{padding: 0 0 0 9px;}
+.mo-gallery-box .image{width: 80px;float: left;margin: 9px 9px 0 0;position: relative;}
+.mo-gallery-box .image:nth-child(3n+1){clear: left;}
+.mo-gallery-box .image img{width: 100%;height: auto;max-height:80px;display: block;}
+.mo-gallery-box .image .del-image{display: block;position: absolute;top: -6px;right: -6px;height: 14px;width: 14px;background-color: #000;border-radius: 50%;}
+.mo-gallery-box .image .del-image:before{font-family: FontAwesome;color: #fff;content: '\f00d';font-size: 11px;position: absolute;top: -1px;right: 3px;}
+.mo-gallery-box .image .del-image:hover{cursor: pointer;}
+.mo-gallery-box .add-image{padding: 5px 0;margin: 10px 0;display: block;clear: both;float:left}
